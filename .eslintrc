@@ -1,6 +1,10 @@
 {
   "root": true,
   "parser": "@typescript-eslint/parser",
+  "rules": {
+    "@typescript-eslint/no-unused-vars": false,
+    "@typescript-eslint/no-undef": false
+},
   "plugins": [
     "@typescript-eslint"
   ],
@@ -9,4 +13,5 @@
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended"
   ]
+
 }
